@@ -8,7 +8,7 @@
 - TMDB developer docs (https://developer.themoviedb.org/)
 - TMDB official site (https://www.themoviedb.org/)
 
-- PROJECT DETAILS ✅
+# PROJECT DETAILS ✅
 - Github Repositorie Link [https://github.com/abhi-png/movix]
 - Install all dependencies : npm install
 - To run project : npm run dev
