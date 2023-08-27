@@ -4,6 +4,10 @@ import ContentWrapper from "../contentWrapper/ContentWrapper";
 import "./style.scss";
 
 const Footer = () => {
+    function navigateTo() {
+        window.open("https://abinashkar.com/", "_blank");
+    }
+
     return (
         <footer className="footer">
             <ContentWrapper>
@@ -21,6 +25,9 @@ const Footer = () => {
                     ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     Duis aute irure dolor in reprehenderit in voluptate velit
                     esse cillum dolore eu fugiat nulla pariatur.
+                </div>
+                <div className="infoText">
+                    &copy; 2023 <span className="developer" onClick={navigateTo}>Abinash kar</span>. All Rights Reserved.
                 </div>
                 <div className="socialIcons">
                     <span className="icon">

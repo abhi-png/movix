@@ -77,4 +77,15 @@
             }
         }
     }
+
+    .developer {
+        cursor: pointer;
+        letter-spacing: 1px;
+
+        &:hover {
+            color: var(--orange);
+            font-weight: 700;
+            letter-spacing: 2px;
+        }
+    }
 }
