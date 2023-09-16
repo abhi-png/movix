@@ -9,7 +9,7 @@ import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
 import useFetch from "../../../hooks/useFetch";
 import Genres from "../../../components/genres/Genres";
 import CircleRating from "../../../components/circleRating/CircleRating";
-import Img from "../../../components/lazyLoadImage/Img.jsx";
+import Img from "../../../components/lazyLoadImage/Img";
 import PosterFallback from "../../../assets/no-poster.png";
 import { PlayIcon } from "../Playbtn";
 import VideoPopup from "../../../components/videoPopup/VideoPopup";
@@ -63,8 +63,8 @@ const DetailsBanner = ({ video, crew }) => {
                                         <Genres data={_genres} />
                                         <div className="row">
                                             <CircleRating rating={data.vote_average.toFixed(1)} />
-                                            <div className="playbtn" 
-                                                onClick={() => { 
+                                            <div className="playbtn"
+                                                onClick={() => {
                                                     setShow(true);
                                                     setVideoId(video.key);
                                                 }}>
